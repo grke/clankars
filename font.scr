@@ -1,0 +1,29 @@
+section Fonts
+{
+        fnt_avantgarde = graphics/fonts/avantgarde-white-bold-18.tga
+	(
+                type=font,
+                trans_limit=0.05,
+                subtract_width=0,
+                spacelen=8,
+                letters="aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZÊ∆¯ÿÂ≈0123456789.,:;|!""@#$%&/\{}[]()<>=+-_?'`~^*"
+        );
+
+	fnt_xsensitive = graphics/fonts/xsensitive.tga
+	(
+		type=font,
+		trans_limit=0.05,
+		subtract_width=0,
+		spacelen=32,
+		letters=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789<>|
+	);
+
+	fnt_xsensitive_invert = graphics/fonts/xsensitive-invert.tga
+	(
+		type=font,
+		trans_limit=0.05,
+		subtract_width=0,
+		spacelen=32,
+		letters=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789<>|
+	);
+}

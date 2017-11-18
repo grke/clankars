@@ -1,0 +1,26 @@
+This is a game that I wrote in 2003.
+It is now 2017, and I found it on my harddrive.
+I can no longer compile it, because it used an ancient development version
+of clanlib.
+I am putting it on github in case I ever get round to getting it going again.
+
+
+Original README from 2003:
+
+This is ClanKars.
+Work in progress by Graham Keeling, graham.keeling@btinternet.com
+Feel free to mail me your comments.
+ClanKars borrows the CAImageManipulation class from Trophy -
+http://trophy.sourceforge.net/ (thanks to Andrew Mustun!)
+
+So far, a s w d control player 1, with left shift and left ctrl controlling
+weapons
+and the arrow keys control player 2, with right shift and right ctrl for
+the weapons
+
+p pauses whilst in the game, and esc will exit.
+
+It's still under heavy development, but looking quite good!
+
+To compile, just run 'make' from within the top level directory and then run
+./clankars
